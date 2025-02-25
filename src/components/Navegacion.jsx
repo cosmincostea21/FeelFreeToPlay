@@ -11,7 +11,7 @@ function Navegacion() {
 
             <section className='nav'>
                 <p><a className='a-img' href="/FreeToPlay"><img src="/FreeLogo.png" alt="" href /></a></p>
-                <p className='p-navegacion'><Link to="/">Pagina Principal</Link></p>
+                <p className='p-navegacion'><Link to="/">Inicio</Link></p>
                 <p className='p-navegacion'><Link to="/FreeToPlay">Free to Play</Link></p>
                 <p>
                     <input type="text" pattern='Buscar' placeholder='Buscar Juegos' />
