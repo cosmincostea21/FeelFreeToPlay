@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+/*Navegación*/
+.contenedor-Nav {
+  display: flex;
+  justify-content: center; /* Centra la barra de navegación */
+  align-items: center;
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  max-height: 15rem;
+  padding: 1rem;
+}
+
+.nav img {
+  height: 60%;
+}
+
+.nav p {
+  padding: 0 15px;
+}
+
+.p-navegacion a {
+  font-family: "Lexend", serif;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase; /* Hace que los enlaces sean en mayúsculas */
+  letter-spacing: 0.05rem; /* Espaciado sutil entre las letras */
+  padding: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.p-navegacion a:hover {
+  color: #f90ee7;
+  border-bottom: 2px solid #f90ee7; /* Línea sutil debajo del enlace */
+  padding-bottom: 0.4rem; /* Ajuste para que la línea se vea más coherente */
+}
+
+.p-navegacion a:focus {
+  outline: none;
+  box-shadow: 0 0 4px rgba(249, 14, 231, 0.4); /* Brillo suave en el enfoque */
+}
+
+.p-navegacion a:hover {
+  color: #f90ee7;
+}
+
+input[type="text"] {
+  visibility: hidden;
+  margin-right: 0.5rem;
+  padding: 10px 15px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  width: 200px;
+}
+
+input[type="text"]:focus {
+  border-color: #f90ee7;
+  box-shadow: 0 0 8px rgba(249, 14, 231, 0.3);
+}
+
+input[type="submit"]:hover {
+  background-color: #d40bc7;
+  transform: scale(1.05);
+}
+
+input[type="submit"]:active {
+  transform: scale(0.95);
+}
+
+.a-img:hover{
+  text-decoration: none;
+  border: 0px;
+}

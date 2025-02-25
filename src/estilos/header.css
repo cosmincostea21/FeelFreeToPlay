@@ -1,0 +1,12 @@
+.header {
+    background-image: url('/DeltaForce.jpg');  
+    background-repeat: no-repeat;
+    background-position-y: 10%;
+    background-size: cover;
+    min-height: 20vh;
+  }
+  
+  .header img{
+    width: 100%;
+    min-height: 15rem;
+  }
