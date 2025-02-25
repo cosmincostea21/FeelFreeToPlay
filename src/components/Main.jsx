@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../estilos/main-inicio.css" /*Importancia en el orden de importación no puedo importar antes desde mi css ya que el estilo de bootstrap pisa a mi estilo*/
 import Button from 'react-bootstrap/Button';
@@ -27,7 +28,7 @@ function TarjetasInicio() {
           <Card.Title>Contactanos</Card.Title>
           <Card.Text>
             Desarrollado por el estudiante Marius Cosmnin Costea del IES Juan Bosco durante las prácticas realizadas en empresa. Este proyecto se ha utilizado para aprender React, implementar Bootstrap
-            y aprender a conectarnos a una api. Feel free to play utiliza la API de <a href="https://www.freetogame.com/api-doc">FreeToGame</a>
+            y aprender a conectarnos a una api. Feel free to play utiliza la API de <Link to="/FreeToPlay">FreeToGame</Link>
           </Card.Text>
           <Button variant="primary" className="boton-personalizado" href='https://www.iesjuanbosco.es/' target='_blank'>Conocenos</Button>
         </Card.Body>
