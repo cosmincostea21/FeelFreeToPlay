@@ -16,7 +16,7 @@ function TarjetasInicio() {
             <br />
             <br />
           </Card.Text>
-          <Button variant="primary" className="boton-personalizado" href='/FreeToPlay'>Free to Play</Button>
+          <Button variant="primary" className="boton-personalizado" href='https://free-games-beta.vercel.app/FreeToPlay'>Free to Play</Button>
         </Card.Body>
         <p className='p-img'><img src="./Objetivo.jpg" alt="diversion" /></p>
       </Card>
