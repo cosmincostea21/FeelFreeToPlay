@@ -16,7 +16,7 @@ function TarjetasInicio() {
             <br />
             <br />
           </Card.Text>
-          <Button variant="primary" className="boton-personalizado"><Link to="/FreeToPlay">Free to Play</Link></Button>
+          <Button variant="primary" className="boton-personalizado" href='/FreeToPlay'>Free to Play</Button>
         </Card.Body>
         <p className='p-img'><img src="./Objetivo.jpg" alt="diversion" /></p>
       </Card>
