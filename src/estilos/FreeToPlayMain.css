@@ -76,6 +76,8 @@
   position: relative;
 }
 
+
+
 .ftp-card:hover {
   box-shadow: 0 4px 8px rgba(249, 14, 231, 0.3); /* Sombra rosada */
   transform: translateY(-5px); /* Efecto de elevación */
@@ -170,4 +172,47 @@
 
 .ftp-card-link:hover .ftp-card-img {
   opacity: 0.8; /* Efecto de opacidad cuando se pasa el mouse sobre la imagen */
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .ftp-main-tarjetas{
+    display: block;
+  }
+
+  .ftp-card{
+    width: 100%;
+    margin-bottom: 3rem;
+
+  }
+
+  .ftp-aside{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+    
+  }
+
+  .ftp-categorias {
+    flex-wrap: wrap ;
+    justify-content: space-around;
+    flex-direction:unset;
+    align-items:unset;
+  }
+  
+  .ftp-categoria-btn {
+    background-color: transparent;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: left;
+    cursor: pointer;
+    width: 30%;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+
+  
 }
