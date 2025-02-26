@@ -200,7 +200,13 @@
     object-fit: cover;
     border-radius: 8px;
   }
-  
+
+  .ftp-card-title {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+
 
   .ftp-aside{
     width: 100%;
