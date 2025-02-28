@@ -63,7 +63,7 @@
   margin-bottom: 2rem;
 }
 
-.ftp-card {
+.ftp-tarjeta {
   width: 30%;
   background-color: white;
   padding: 1rem;
@@ -78,29 +78,29 @@
 
 
 
-.ftp-card:hover {
+.ftp-tarjeta:hover {
   box-shadow: 0 4px 8px rgba(249, 14, 231, 0.3); /* Sombra rosada */
   transform: translateY(-5px); /* Efecto de elevación */
 }
 
-.ftp-card-img {
+.ftp-imagen-tarjeta {
   width: 100%;
   height: 15rem;
   object-fit: cover;
   border-radius: 8px;
 }
 
-.ftp-card-title {
+.ftp-titulo-tarjeta {
   font-size: 1.2rem;
   font-weight: bold;
 }
 
-.ftp-card-genre {
+.ftp-genero-tarjeta {
   font-size: 1rem;
   color: #888;
 }
 
-.ftp-card-description {
+.ftp-descripcion-tarjeta {
   font-size: 0.9rem;
   color: #555;
 }
@@ -148,7 +148,7 @@
 }
 
 /* Estilo para el enlace */
-.ftp-card a {
+.ftp-tarjeta a {
   text-decoration: none; /* Eliminar subrayado */
   color: inherit; /* Heredar el color de la tarjeta */
   display: block; /* Asegurarse de que todo el contenido de la tarjeta sea clicable */
@@ -158,7 +158,7 @@
 
 
 /* Efecto hover para el enlace (mejorar la visibilidad) */
-.ftp-card a:hover {
+.ftp-tarjeta a:hover {
   color: #f90ee7; /* Mantener color del texto */
 }
 
@@ -170,7 +170,7 @@
   border-radius: 8px;
 }
 
-.ftp-card-link:hover .ftp-card-img {
+.ftp-card-link:hover .ftp-imagen-tarjeta {
   opacity: 0.8; /* Efecto de opacidad cuando se pasa el mouse sobre la imagen */
 }
 
@@ -185,23 +185,23 @@
     margin-bottom: 2rem;
   }
 
-  .ftp-card{
+  .ftp-tarjeta{
     min-width: 45%;
     position: relative;
   }
 
-  .ftp-card-description{
+  .ftp-descripcion-tarjeta{
     display: none;
   }
 
-  .ftp-card-img {
+  .ftp-imagen-tarjeta {
     width: 100%;
     height: 10rem;
     object-fit: cover;
     border-radius: 8px;
   }
 
-  .ftp-card-title {
+  .ftp-titulo-tarjeta {
     font-size: 1rem;
     font-weight: bold;
   }

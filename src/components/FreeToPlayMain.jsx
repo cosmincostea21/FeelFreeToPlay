@@ -124,17 +124,17 @@ function FreeToPlayMain() {
       <main className='ftp-main-tarjetas'>
         {juegosPaginados.length > 0 ? ( // Si el tamaño del array que contiene elnúmero de juegos paginados es mayor que 0 dibuja el main
           juegosPaginados.map((videojuego) => (
-            <article key={videojuego.id} className='ftp-card'>
+            <article key={videojuego.id} className='ftp-tarjeta'>
               {/* Enlace para la imagen */}
               <a 
                 href={videojuego.game_url} 
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <img src={videojuego.thumbnail} alt={videojuego.title} className='ftp-card-img' />
+                <img src={videojuego.thumbnail} alt={videojuego.title} className='ftp-imagen-tarjeta' />
               </a>
               {/* Enlace para el título */}
-              <h2 className='ftp-card-title'>
+              <h2 className='ftp-titulo-tarjeta'>
                 <a 
                   href={videojuego.game_url} 
                   target="_blank" 
@@ -144,8 +144,8 @@ function FreeToPlayMain() {
                   {videojuego.title}
                 </a>
               </h2>
-              <span className='ftp-card-genre'>{videojuego.genre}</span>
-              <p className='ftp-card-description'>{videojuego.short_description}</p>
+              <span className='ftp-genero-tarjeta'>{videojuego.genre}</span>
+              <p className='ftp-descripcion-tarjeta'>{videojuego.short_description}</p>
             </article>
           ))
         ) : (
