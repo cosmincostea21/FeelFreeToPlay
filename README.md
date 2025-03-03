@@ -16,7 +16,7 @@ asegurarnos de que el dispositivo es el adecuado para poder ejecutar los juegos 
 
 ## Despliegue 📦
 
-Podeis encontrar el despliegue original en el siguiente enlace: [FeelFreToPlay](https://vercel.com/marius-cosmin-costeas-projects/free-games) 
+Podeis encontrar el despliegue original en el siguiente enlace: [FeelFreToPlay](https://free-games-beta.vercel.app) 
 
 ## Construido con 🛠️
 
