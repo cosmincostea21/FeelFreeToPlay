@@ -1,4 +1,4 @@
-# Feel Free To Game 🕹
+# Feel Free To Play 🕹
 
 Este proyecto está enfocado a encontrar todos los juegos free to play que se encuentren en el mercado. Podéis encotrar juegos de una inmensa variedad de categorías.
 Explora Feel Free To Game y prueba todos los juegos que te llamen la atención.
