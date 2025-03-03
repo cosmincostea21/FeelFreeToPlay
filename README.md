@@ -20,9 +20,9 @@ Podeis encontrar el despliegue original en el siguiente enlace: [FeelFreToPlay](
 
 ## Construido con 🛠️
 
-* [React Bootstrap](http://www.dropwizard.io/1.0.2/docs/](https://react-bootstrap.netlify.app/)) - El framework web usado
-* [React](https://maven.apache.org/](https://es.react.dev/)) -  React - Biblioteca Javascript de código abierto 
-* [Vite](https://rometools.github.io/rome/](https://vite.dev/)) - Herramienta de compilación
+* [React Bootstrap](https://react-bootstrap.netlify.app/) - El framework web usado
+* [React](https://es.react.dev/) -  React - Biblioteca Javascript de código abierto 
+* [Vite](https://vite.dev/) - Herramienta de compilación
 
 
 # React + Vite
@@ -36,7 +36,7 @@ Currently, two official plugins are available:
 
 ## Autores ✒️
 
-* **Marius Cosmin Costea** - *Desarrollador web* - [MariusCosminCostea](https://github.com/villanuevand](https://github.com/cosmincostea21))
+* **Marius Cosmin Costea** - *Desarrollador web* - [MariusCosminCostea](https://github.com/cosmincostea21)
   
 
 ## Expresiones de Gratitud 🎁
@@ -47,5 +47,5 @@ Currently, two official plugins are available:
 
 
 ---
-⌨️ con ❤️ por [Marius Cosmin Costea](https://github.com/Villanuevand](https://github.com/villanuevand](https://github.com/cosmincostea21))) 😊
+⌨️ con ❤️ por [Marius Cosmin Costea](https://github.com/cosmincostea21) 😊
 
