@@ -1,6 +1,6 @@
 # Feel Free To Game 🕹
 
-Este proyecto va enfocado a encontrar todos los juegos free to play que se encuentran en el mercado. Podeis encotrar juegos de una inmensa variedad de categorías.
+Este proyecto está enfocado a encontrar todos los juegos free to play que se encuentren en el mercado. Podéis encotrar juegos de una inmensa variedad de categorías.
 Explora Feel Free To Game y prueba todos los juegos que te llamen la atención.
 
 ## Comenzando 🚀
@@ -11,7 +11,7 @@ comprender el funcionamiento de React, la implementación de Bootstrap y acceder
 ### Pre-requisitos 📋
 
 Para navegar por la página web no se requieren de requisitos previos. Ahora bien, para disfrutar de los títulos debemos acceder a la página oficial de cada uno de los videojuegos para poder
-asegurarnos de que el dispositivo es el adecuado para poder ejecutar los juegos ya sea en un PC, en una consola o en un dispositivo móvil.
+asegurarnos de que el dispositivo es el adecuado para poder instalar, ejecutar y disfrutar de los juegos ya sea en un PC, en una consola o en un dispositivo móvil.
 
 
 ## Despliegue 📦
@@ -20,16 +20,15 @@ Podeis encontrar el despliegue original en el siguiente enlace: [FeelFreToPlay](
 
 ## Construido con 🛠️
 
-* [React Bootstrap](https://react-bootstrap.netlify.app/) - El framework web usado
-* [React](https://es.react.dev/) -  React - Biblioteca Javascript de código abierto 
-* [Vite](https://vite.dev/) - Herramienta de compilación
+* [React Bootstrap](https://react-bootstrap.netlify.app/) - El framework web usado.
+* [React](https://es.react.dev/) -  React - Biblioteca Javascript de código abierto.
+* [Vite](https://vite.dev/) - Herramienta de compilación.
 
 
 # React + Vite
+Esta plantilla provee un setup minimo para poder trabajar React en Vite junto con HMR y algunas reglas ESLint
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
+Actualmente, se encuentran dos plugins disponibles:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
