@@ -14,6 +14,8 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+---
+
 ### 📂 node_modules
 Contiene todas las librerías instaladas.  
 Se generan a partir de `package.json` y `package-lock.json` o `yarn.lock`.  
@@ -39,4 +41,15 @@ Archivos de configuración local (ejemplo: `.env.local`).
 **Razón para excluirlos:**
 - Suelen contener credenciales, tokens o configuraciones específicas de tu PC.
 - No deberían compartirse por seguridad.
+
+---
+
+### 📝 Archivos de editores y sistema
+
+- `.vscode/*`: configuraciones personales de VS Code.  
+  - **Excepción:** `extensions.json` sí puede compartirse.  
+- `.idea`: configuraciones de JetBrains (personales).  
+- `.DS_Store`: archivo oculto de macOS (innecesario).  
+- `*.suo, *.ntvs*, *.njsproj, *.sln`: archivos de proyectos de Visual Studio (no aportan al código).  
+- `*.sw?`: archivos temporales creados por editores como Vim. 
 
