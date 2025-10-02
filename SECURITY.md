@@ -1,4 +1,6 @@
 # Seguridad de nuestro Repositorio
+No dejar vulnerabilidades en nuestros repositorios es muy importante tanto ocultar la información sensible de nuestro pc como evitar subir ficheros innecesarios y pesados a nuestros repositorios es fun-
+damental para un buen proyecto. Un método eficiente para lograrlo es usando .gitignore.
 
 ## Archivo .gitignore
 Los logs son archivos generados automáticamente por el sistema o los gestores de paquetes (npm, yarn, pnpm, lerna). Los hemos añadido al .gitignore porque estos contienen mensajes de error o depuración,
