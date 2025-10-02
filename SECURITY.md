@@ -55,3 +55,19 @@ Archivos de configuración local (ejemplo: `.env.local`).
 - `*.suo, *.ntvs*, *.njsproj, *.sln`: archivos de proyectos de Visual Studio (no aportan al código).  
 - `*.sw?`: archivos temporales creados por editores como Vim. 
 
+
+## Recuperación del repositorio en caso de pérdida.
+
+### 1. Respaldo y seguridad de GitHub
+- Copias redundantes en múltiples servidores.
+- Snapshots y backups automáticos.
+- Alta disponibilidad en caso de fallos.
+
+### 2. Recuperación desde copias locales
+- Git es distribuido: cada `git clone` tiene el **historial completo**.
+- Si GitHub falla, se puede restaurar con:
+  ```bash
+  git remote set-url origin git@github.com:usuario/repositorio-nuevo.git
+  git push --mirror origin
+
+
