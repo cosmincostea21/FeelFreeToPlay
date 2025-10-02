@@ -70,4 +70,10 @@ Archivos de configuración local (ejemplo: `.env.local`).
   git remote set-url origin git@github.com:usuario/repositorio-nuevo.git
   git push --mirror origin
 
+### 3. Medidas adicionales recomendadas
+- Reposotorios espejo:
+  ```bash
+  git push --mirror git@servidor-secundario:usuario/repositorio.git
+
+- Exportaciones periódicas y uso de ramas.
 
